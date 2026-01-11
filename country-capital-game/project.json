@@ -1,0 +1,26 @@
+{
+  "name": "country-capital-game",
+  "root": "country-capital-game",
+  "sourceRoot": "country-capital-game/src",
+  "projectType": "application",
+  "targets": {
+    "serve": {
+      "executor": "@nx/vite:dev-server",
+      "options": {
+        "config": "country-capital-game/vite.config.mts",
+        "port": 4201,
+        "buildTarget": "country-capital-game:build"
+      }
+    },
+    "build": {
+      "executor": "@nx/vite:build",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/apps/country-capital-game",
+        "config": "country-capital-game/vite.config.mts",
+        "index": "country-capital-game/index.html",
+        "tsConfig": "country-capital-game/tsconfig.app.json"
+      }
+    }
+  }
+}
