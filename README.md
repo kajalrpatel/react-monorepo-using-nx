@@ -1,10 +1,30 @@
-# New Nx Repository
+# React Monorepo using Nx
 
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
 
-✨ Your new, shiny [Nx workspace](https://nx.dev) is ready ✨.
+A modern [Nx monorepo](https://nx.dev) workspace containing multiple React applications built with TypeScript, Vite, and Tailwind CSS.
 
-[Learn more about this workspace setup and its capabilities](https://nx.dev/nx-api/js?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) or run `npx nx graph` to visually explore what was created. Now, let's get you up to speed!
+## Projects
+
+This monorepo includes the following applications:
+
+- **Country Capital Game** - An interactive game application where users can test their knowledge of world capitals. Built with React, TypeScript, and Tailwind CSS.
+- **File Explorer** - A file system explorer component demonstrating React patterns and component composition. Includes unit tests with Jest.
+
+## Tech Stack
+
+- **Monorepo Tool**: [Nx](https://nx.dev) - Fast, extensible build system
+- **Framework**: React 18+ with TypeScript
+- **Build Tool**: Vite - Fast frontend build tool
+- **Styling**: Tailwind CSS
+- **Package Manager**: pnpm
+- **Testing**: Jest
+- **Linting**: ESLint
+- **CSS Processing**: PostCSS
+
+## Quick Start
+
+Run `npx nx graph` to visually explore the monorepo structure and project dependencies.
 
 ## Generate a library
 
