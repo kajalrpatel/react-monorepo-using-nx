@@ -12,6 +12,7 @@ export default {
       __dirname,
       'country-capital-game/src/**/*!(*.stories|*.spec).{ts,tsx,html}'
     ),
+    join(__dirname, 'multi-page-app/src/**/*!(*.stories|*.spec).{ts,tsx,html}'),
     ...createGlobPatternsForDependencies(__dirname),
   ],
   theme: {

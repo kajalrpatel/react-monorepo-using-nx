@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "serve:file-explorer": "nx serve file-explorer --port=4200",
-    "serve:country-capital-game": "nx serve country-capital-game --port=4201"
+    "serve:country-capital-game": "nx serve country-capital-game --port=4201",
+    "serve:multi-page-app": "nx serve multi-page-app --port=4202"
   },
   "private": true,
   "devDependencies": {

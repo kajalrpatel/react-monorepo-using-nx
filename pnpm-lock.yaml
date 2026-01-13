@@ -157,6 +157,12 @@ importers:
         specifier: ^0.562.0
         version: 0.562.0(react@19.2.3)
 
+  multi-page-app:
+    dependencies:
+      react-router-dom:
+        specifier: 6.29.0
+        version: 6.29.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+
 packages:
 
   '@alloc/quick-lru@5.2.0':

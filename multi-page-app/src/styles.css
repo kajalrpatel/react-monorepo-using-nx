@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Minimal custom styles to ensure background contrasts with list items */
+body {
+  @apply bg-slate-50;
+}

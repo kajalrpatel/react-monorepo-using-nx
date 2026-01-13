@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig(() => ({
   root: import.meta.dirname,
-  cacheDir: '../node_modules/.vite/country-capital-game',
+  cacheDir: '../node_modules/.vite/multi-page-app',
   server: {
     port: 4202,
     host: 'localhost',

@@ -1,0 +1,26 @@
+{
+  "name": "multi-page-app",
+  "root": "multi-page-app",
+  "sourceRoot": "multi-page-app/src",
+  "projectType": "application",
+  "targets": {
+    "serve": {
+      "executor": "@nx/vite:dev-server",
+      "options": {
+        "config": "multi-page-app/vite.config.mts",
+        "port": 4202,
+        "buildTarget": "multi-page-app:build"
+      }
+    },
+    "build": {
+      "executor": "@nx/vite:build",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/apps/multi-page-app",
+        "config": "multi-page-app/vite.config.mts",
+        "index": "multi-page-app/index.html",
+        "tsConfig": "multi-page-app/tsconfig.app.json"
+      }
+    }
+  }
+}
